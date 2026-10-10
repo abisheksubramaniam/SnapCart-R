@@ -1,0 +1,13 @@
+# Copy this file to .Renviron, fill in the values, then RESTART R.
+# ---- Google Cloud Vision (OCR) ----
+GOOGLE_VISION_API_KEY=your_google_cloud_vision_key_here
+
+# ---- Anthropic (Claude) ----
+ANTHROPIC_API_KEY=your_anthropic_key_here
+ANTHROPIC_MODEL=claude-haiku-5-5
+
+# ---- Fallback LLM: Google Gemini (free tier) ----
+GOOGLE_API_KEY=your_gemini_key_here
+
+# ---- Development switch: TRUE = canned JSON (no Claude credit spent) ----
+USE_MOCK_LLM=TRUE

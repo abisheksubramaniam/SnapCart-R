@@ -1,0 +1,6 @@
+# One command to build everything: source("run_all.R")
+# Then launch the dashboard:       shiny::runApp()
+source("R/03_generate_synthetic.R")
+source("R/06_eda.R")
+source("R/04_train_models.R")
+cat("\nSetup complete. Launch the app with: shiny::runApp()\n")

@@ -1,0 +1,19 @@
+# Secrets: NEVER commit
+.Renviron
+
+# User-generated receipt data (may contain personal purchases)
+data/receipts.csv
+
+# R / RStudio artefacts
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Deployment metadata
+rsconnect/
+
+# OS files
+.DS_Store
+Thumbs.db
